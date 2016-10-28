@@ -1,0 +1,363 @@
+#single {
+    #content {
+        .isotope {
+            .post,
+            .partners,
+            .services {
+                width: 100%;
+                .entry-header {
+                    text-align: center;
+                    .entry-title {
+                        font-size: 2em;
+                        line-height: 1.5em;
+                        margin: 30px auto;
+                        display: inline-block;
+                        color: @dark;
+                        font-weight: 900;
+                    }
+                }
+                .entry-content {
+                    position: relative;
+                    padding: 0 15px;
+                    .entry-thumbnail {
+                        max-width: 400px;
+                        height: auto;
+                        display: inline-block;
+                        float: left;
+                        margin: 0 20px 20px 0;
+                    }
+                    p {
+                        margin: 0;
+                    }
+                    ul.list-page {
+                        list-style: none;
+                        li {
+                            color: @gray;
+                            font-size: 1em;
+                            &:before {
+                                content: url('images/done.png');
+                                margin: 0 10px 0 30px;
+                                display: inline-flex;
+                                vertical-align: middle;
+                            }
+                        }
+                    }
+                    h2 {
+                        font-size: 1.5em;
+                    }
+                    p {
+                        text-align: justify;
+                        text-indent: 20px;
+                        line-height: 2em;
+                        color: @gray;
+                    }
+                    .line {
+                          border-top: 1px solid @coffe;
+                    }
+                    dl {
+                        dt {
+                            color: @green;
+                        }
+                        dd {
+                            text-align: justify;
+                            text-indent: 20px;
+                            line-height: 2em;
+                            color: @gray;
+                        }
+                    }
+                    table {
+                        th {
+                            color: @green;
+                        }
+                        td {
+                            color: @gray;
+                            a {
+                                color: @blue;
+                            }
+                        }
+                    }
+                    .gallery {
+                        .gallery-item {
+                            margin: 0;
+                            img {
+                                border: 0px;
+                            }
+                        }
+                    }
+                }
+                .more {
+                    display: none;
+                }
+                .entry-meta {
+                    padding: 20px 0;
+                    text-align: left;
+                    margin-top: 20px;
+                    border-top: 1px solid @gray;
+                    @media (max-width: 414px){
+                        text-align: left;
+                    }
+                    span {
+                        @media (max-width: 414px){
+                            display: block;
+                            margin: 20px 0 20px 20px;
+                        }
+                    }
+                    i {
+                        font-size: 1.3em;
+                        padding:5px 5px 5px 10px;
+                        margin: 0 5px;
+                        color: @red;
+                    }
+                    a {
+                        color: @blue;
+                        font-weight: 400;
+                        &:hover {
+                            color: @red;
+                        }
+                    }
+                    .date {
+                        margin-right: 15px;
+                    }
+                    .comments-link {
+                        display: inline-block;
+                    }
+                }
+            }
+            .services {
+                h2 {
+                        font-size: 1.5em;
+                        display: inline-block;
+                    }
+                    table {
+                        display: inline;
+                    }
+                    .futered {
+                        margin: 25px 0;
+                        .futered-header {
+                            text-align: center;
+                            height: 75px;
+                            background: @green;
+                            i {
+                                color: @yellow;
+                                font-size: 2em;
+                                margin: 25px 0 0 0;
+                            }
+                        }
+                        .futered-content {
+                            background: @white;
+                            padding: 20px 10px;
+                            height: 100px;
+                            h3 {
+                                font-size: 1em;
+                                color: @green;
+                                text-align: center;
+                                display: block;
+                                margin: 0;
+                            }
+                        }
+                    }
+            }
+        }
+        .comments {
+            .comments-title {
+                text-align: left;
+                color: @dark;
+                text-transform: uppercase;
+                font-size: 1.3em;
+                margin-bottom: 30px;
+                font-weight: 700;
+            }
+            #reply-title {
+                font-size: 1.2em;
+            }
+            .comment-list {
+                list-style: none;
+                .comment-body {
+                    padding: 20px;
+                    margin-bottom: 5px;
+                    border: 1px solid @gray;
+                    .comment-author {
+                        img {
+                            .border-radius;
+                        }
+                    }
+                    .comment-meta {
+                        padding: 10px;
+                        display: inline-block;
+                        margin: 15px 0;
+                    }
+                    p {
+                        background: fade(@gray,60%);
+                        padding: 10px;
+                        width: 100%;
+                        min-height: 100px;
+                    }
+                    .reply {
+                        margin: 20px 0;
+                        a {
+                            .button;
+                        }
+                    }
+                }
+                .children {
+                    list-style: none;
+                }
+            }
+            #respond {
+                #commentform {
+                    .comment-notes {
+                        background: @green;
+                        padding: 5px;
+                        text-align: center;
+                    }
+                    p {
+                        label {
+                            display: block;
+                        }
+                        input {
+                            .input;
+                            width:100%;
+                            padding: 5px;
+                            margin: 0 0 7px 0;
+                            &:hover {
+                                background: @white;
+                                .transition;
+                            }
+                            @media (max-width: 568px){
+                               width: 100%;
+                            }
+                        }
+                        textarea {
+                            .input;
+                            width:100%;
+                            height: 94px;
+                            padding: 5px;
+                            margin: 0 0 7px 0;
+                            &:hover {
+                                background: @white;
+                                .transition;
+                            }
+                            @media (max-width: 568px){
+                               width: 100%;
+                            }
+                        }
+                    }
+                    .form-allowed-tags {
+                         width:100%;
+                         @media (max-width: 568px){
+                            width: 100%;
+                         }
+                    }
+                    .form-submit {
+                        #submit {
+                            .button;
+                            width: auto;
+                            padding: 10px;
+                            font-size: 1em;
+                        }
+                    }
+                }
+            }
+        }
+        .post-navigation {
+            text-align: center;
+            margin:30px 0;
+            .nav-links {
+                @media (max-width: 414px){
+                    text-align: center;
+                }
+                a {
+                    margin: 5px 15px;
+                    .button;
+                    @media (max-width: 414px){
+                        display: block;
+                        margin: 20px 0;
+                    }
+                }
+            }
+        }
+    }
+}
+#main {
+    #content {
+        #contacts {
+                .page {
+                    p {
+                        margin: 0;
+                    }
+                    ul.list-page {
+                        list-style: none;
+                        li {
+                            color: @gray;
+                            font-size: 1em;
+                            &:before {
+                                content: url('images/done.png');
+                                margin: 0 10px 0 30px;
+                                display: inline-flex;
+                                vertical-align: middle;
+                            }
+                        }
+                    }
+                    h2 {
+                        font-size: 1.5em;
+                    }
+                    p {
+                        text-align: justify;
+                        text-indent: 20px;
+                        line-height: 2em;
+                        color: @gray;
+                    }
+                    .line {
+                          border-top: 1px solid @coffe;
+                    }
+                    dl {
+                        dt {
+                            color: @green;
+                        }
+                        dd {
+                            text-align: justify;
+                            text-indent: 20px;
+                            line-height: 2em;
+                            color: @gray;
+                        }
+                    }
+                    table {
+                        th {
+                            color: @green;
+                        }
+                        td {
+                            color: @gray;
+                            a {
+                                color: @blue;
+                            }
+                        }
+                    }
+                    .futered {
+                        margin: 25px 0;
+                        .futered-header {
+                            text-align: center;
+                            height: 75px;
+                            background: @green;
+                            i {
+                                color: @yellow;
+                                font-size: 2em;
+                                margin: 25px 0 0 0;
+                            }
+                        }
+                        .futered-content {
+                            background: @white;
+                            padding: 20px 10px;
+                            height: 100px;
+                            h3 {
+                                font-size: 1em;
+                                color: @green;
+                                text-align: center;
+                                display: block;
+                                margin: 0;
+                            }
+                        }
+                    }
+                }
+            }
+    }
+}

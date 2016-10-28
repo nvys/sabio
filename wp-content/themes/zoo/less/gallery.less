@@ -1,0 +1,27 @@
+#site {
+    #main {
+        #gallery-grid {
+            .grid {
+            &:after {
+                content: '';
+                display: block;
+                clear: both;
+            }
+                .grid-sizer,
+                .grid-item {
+                    width: 33.333%;
+                }
+                .grid-item {
+                    float: left;
+                    padding: 5px;
+                    margin: 0;
+                    img {
+                        display: block;
+                        max-width: 100%;
+                        border: 1px solid @coffe;
+                    }
+                }
+            }
+        }
+    }
+}

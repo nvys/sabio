@@ -1,0 +1,70 @@
+@blue: #0F2A56;
+@green: #00934E;
+@green-dark: #005540;
+@gray-dark: #2C4146;
+@dark: #333;
+@black: #000;
+@white: #FFF;
+@yellow: #F9E141;
+@gray: #676767;
+@coffe:#BABABA;
+@red: #E9323B;
+
+.border-radius(@radius:50%) {
+	-webkit-border-radius: @radius;
+    -moz-border-radius: @radius;
+    -o-border-radius: @radius;
+    border-radius: @radius;
+}
+.transition(@time:0.3s) {
+	-webkit-transition: all @time ease-out;
+	-moz-transition: all @time ease-out;
+	-o-transition: all @time ease-out;
+	transition: all @time ease-out;
+}
+.button {
+    border: 1px solid @green;
+    color: @green;
+    padding: 15px;
+    .transition;
+    &:hover {
+        color: @white;
+        background: fade(@green, 40%);
+        .transition;
+    }
+}
+.input {
+    background: transparent;
+    border: 1px solid @green;
+    color: @green;
+    font-size: 1.3em;
+    font-weight: 400;
+    padding: 10px;
+    margin: 0 0 15px 0;
+}
+.rotation(@deg:45deg) {
+	-moz-transform: rotate(@deg);
+    -ms-transform: rotate(@deg);
+    -o-transform: rotate(@deg);
+    -webkit-transform: rotate(@deg);
+    transform: rotate(@deg);
+}
+.scale(@scale:1) {
+	-moz-transform: scale(@scale);
+    -ms-transform: scale(@scale);
+    -o-transform: scale(@scale);
+    -webkit-transform: scale(@scale);
+    transform: scale(@scale);
+}
+.blur(@px:1px) {
+    filter: blur(@px);
+    -webkit-filter: blur(@px);
+    -moz-filter: blur(@px);
+    -o-filter: blur(@px);
+}
+.text-shadow {
+    text-shadow: 1px 0px 1px @white;
+    -webkit-text-shadow: 1px 0px 1px @white;
+    -moz-text-shadow: 1px 0px 1px @white;
+    -o-text-shadow: 1px 0px 1px @white;
+}

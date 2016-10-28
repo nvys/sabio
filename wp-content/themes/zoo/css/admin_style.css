@@ -1,0 +1,262 @@
+#accordion-section-tcx_color_theme h3.accordion-section-title:before{
+    content: "\f1fc";
+    font-family: FontAwesome;
+    font-size: 18px;
+    color: #888;
+    font-weight: normal;
+    margin-right: 10px; 
+} 
+#accordion-section-tcx_advanced_main_menu h3.accordion-section-title:before{
+    content: "\f015";
+    font-family: FontAwesome;
+    font-size: 18px;
+    color: #888;
+    font-weight: normal;
+    margin-right: 10px; 
+}
+#accordion-section-tcx_advanced_options h3.accordion-section-title:before{
+    content: "\f19a";
+    font-family: FontAwesome;
+    font-size: 18px;
+    color: #888;
+    font-weight: normal;
+    margin-right: 10px; 
+}
+#accordion-section-tcx_advanced_body_links h3.accordion-section-title:before{
+    content: "\f06c";
+    font-family: FontAwesome;
+    font-size: 18px;
+    color: #888;
+    font-weight: normal;
+    margin-right: 10px;
+}
+#accordion-section-tcx_advanced_footer_links h3.accordion-section-title:before{
+    content: "\f149";
+    font-family: FontAwesome;
+    font-size: 18px;
+    color: #888;
+    font-weight: normal;
+    margin-right: 10px;
+}
+#accordion-section-tcx_advanced_body h3.accordion-section-title:before{
+    content: "\f14c";
+    font-family: FontAwesome;
+    font-size: 18px;
+    color: #888;
+    font-weight: normal;
+    margin-right: 10px;
+}
+#accordion-section-tcx_advanced_body h3.accordion-section-title:before{
+    content: "\f14c";
+    font-family: FontAwesome;
+    font-size: 18px;
+    color: #888;
+    font-weight: normal;
+    margin-right: 10px;
+}
+#accordion-section-tcx_advanced_typography h3.accordion-section-title:before{
+    content: "\f031";
+    font-family: FontAwesome;
+    font-size: 18px;
+    color: #888;
+    font-weight: normal;
+    margin-right: 10px;
+}
+#accordion-section-title_tagline h3.accordion-section-title:before{
+    content: "\f1dd";
+    font-family: FontAwesome;
+    font-size: 18px;
+    color: #888;
+    font-weight: normal;
+    margin-right: 10px;
+}
+#accordion-section-colors h3.accordion-section-title:before{
+    content: "\f1fb";
+    font-family: FontAwesome;
+    font-size: 18px;
+    color: #888;
+    font-weight: normal;
+    margin-right: 10px;
+}
+#accordion-section-header_image h3.accordion-section-title:before{
+    content: "\f0f3";
+    font-family: FontAwesome;
+    font-size: 18px;
+    color: #888;
+    font-weight: normal;
+    margin-right: 10px;
+}
+#accordion-section-nav h3.accordion-section-title:before{
+    content: "\f0b2";
+    font-family: FontAwesome;
+    font-size: 18px;
+    color: #888;
+    font-weight: normal;
+    margin-right: 10px;
+}
+#accordion-panel-widgets h3.accordion-section-title:before{
+    content:"\f0db";
+    font-family: FontAwesome;
+    font-size: 18px;
+    color: #888;
+    font-weight: normal;
+    margin-right: 10px;
+}
+#accordion-section-static_front_page h3.accordion-section-title:before{
+    content:"\f022";
+    font-family: FontAwesome;
+    font-size: 18px;
+    color: #888;
+    font-weight: normal;
+    margin-right: 10px;
+}
+#accordion-section-tcx_advanced_social_links h3.accordion-section-title:before{
+    content:"\f099";
+    font-family: FontAwesome;
+    font-size: 18px;
+    color: #888;
+    font-weight: normal;
+    margin-right: 10px;
+}
+#accordion-section-tcx_advanced_copyright h3.accordion-section-title:before{
+    content:"\f1f9";
+    font-family: FontAwesome;
+    font-size: 18px;
+    color: #888;
+    font-weight: normal;
+    margin-right: 10px;
+}
+#accordion-section-tcx_advanced_mail_top h3.accordion-section-title:before{
+    content:"\f0e0";
+    font-family: FontAwesome;
+    font-size: 18px;
+    color: #888;
+    font-weight: normal;
+    margin-right: 10px;
+}
+#accordion-section-tcx_advanced_top_menu h3.accordion-section-title:before{
+    content:"\f148";
+    font-family: FontAwesome;
+    font-size: 18px;
+    color: #888;
+    font-weight: normal;
+    margin-right: 10px;
+}
+#accordion-section-tcx_advanced_footer_menu h3.accordion-section-title:before{
+    content:"\f149";
+    font-family: FontAwesome;
+    font-size: 18px;
+    color: #888;
+    font-weight: normal;
+    margin-right: 10px;
+}
+/*#top_one h3:before{
+    content: url(../images/position/p1.png);
+    margin: 0 15px 10px 0;
+}
+#top_two h3:before{
+    content: url(../images/position/p2.png);
+    margin: 0 15px 10px 0;
+}
+#top_three h3:before{
+    content: url(../images/position/p3.png);
+    margin: 0 15px 10px 0;
+}
+#top_four h3:before{
+    content: url(../images/position/p4.png);
+    margin: 0 15px 10px 0;
+}
+#top_left h3:before{
+    content: url(../images/position/p1.png);
+    margin: 0 15px 10px 0;
+}
+#top_right h3:before{
+    content: url(../images/position/p4.png);
+    margin: 0 15px 10px 0;
+}*/
+/*#position_1 h3:before{
+    content: url(../images/position/7.png);
+    margin: 0 15px 10px 0;
+}
+#position_2 h3:before{
+    content: url(../images/position/8.png);
+    margin: 0 15px 10px 0;
+}
+#position_3 h3:before{
+    content: url(../images/position/9.png);
+    margin: 0 15px 10px 0;
+}
+#position_4 h3:before{
+    content: url(../images/position/10.png);
+    margin: 0 15px 10px 0;
+}
+#position_5 h3:before{
+    content: url(../images/position/11.png);
+    margin: 0 15px 10px 0;
+}
+#position_6 h3:before{
+    content: url(../images/position/12.png);
+    margin: 0 15px 10px 0;
+}
+#position_7 h3:before{
+    content: url(../images/position/13.png);
+    margin: 0 15px 10px 0;
+}
+
+
+#position_8 h3:before{
+    content: url(../images/position/14.png);
+    margin: 0 15px 10px 0;
+}
+
+#position_9 h3:before{
+    content: url(../images/position/15.png);
+    margin: 0 15px 10px 0;
+}
+#position_10 h3:before{
+    content: url(../images/position/16.png);
+    margin: 0 15px 10px 0;
+}
+#position_11 h3:before{
+    content: url(../images/position/17.png);
+    margin: 0 15px 10px 0;
+}
+
+#position_12 h3:before{
+    content: url(../images/position/18.png);
+    margin: 0 15px 10px 0;
+}
+#position_13 h3:before{
+    content: url(../images/position/19.png);
+    margin: 0 15px 10px 0;
+}
+#position_14 h3:before{
+    content: url(../images/position/20.png);
+    margin: 0 15px 10px 0;
+}
+#position_15 h3:before{
+    content: url(../images/position/22.png);
+    margin: 0 15px 10px 0;
+}
+#position_16 h3:before{
+    content: url(../images/position/23.png);
+    margin: 0 15px 10px 0;
+}
+
+#bottom_left h3:before{
+    content: url(../images/position/22.png);
+    margin: 0 15px 10px 0;
+}
+#bottom_right h3:before{
+    content: url(../images/position/23.png);
+    margin: 0 15px 10px 0;
+}
+
+#position_17 h3:before{
+    content: url(../images/position/24.png);
+    margin: 0 15px 10px 0;
+}
+#position_18 h3:before{
+    content: url(../images/position/25.png);
+    margin: 0 15px 10px 0;
+}*/

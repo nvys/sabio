@@ -1,0 +1,209 @@
+.blog {
+    h1 {
+        text-transform: uppercase;
+        font-size: 2em;
+        font-weight: 900;
+        color: @blue;
+        line-height: 2em;
+        padding-left: 50px;
+    }
+    .side-bar-left {
+        .sidebar-content {
+            border: 1px solid @blue;
+            .border-radius(5px);
+            background: @gray;
+            // margin: 10px;
+            padding:10px;
+            .widget_sp_image {
+                img {
+                    margin: 0 auto;
+                    display: block;
+                }
+            }
+            .widget_product_search {
+                .woocommerce-product-search {
+                    margin: 25px 0 50px 0;
+                    label {
+                        display:block;
+                        text-align: center;
+                        color:@red;
+                        font-size: 1em;
+                        font-weight: 900;
+                        text-transform: uppercase;
+                    }
+                    input[type="search"] {
+                        .input;
+                        background:@blue;
+                        width: 100%;
+                    }
+                    input[type="submit"] {
+                        .button;
+                        display: block;
+                        margin: 20px auto;
+                        padding: 13px 30px;
+                    }
+                }
+            }
+            .widget_top_rated_products {
+                margin-top: 50px;
+                h3 {
+                    color:@blue;
+                    text-align: center;
+                }
+                li {
+                    padding: 5px;
+                    margin: 5px 0;
+                    border: 1px solid @white;
+                    .border-radius(3px);
+                    .transition;
+                    &:hover {
+                        border: 1px solid @blue;
+                        background: @white;
+                        .transition;
+                    }
+                    img {
+                        width: 50px;
+                    }
+                }
+            }
+        }
+    }
+    .page_blog {
+        h3 {
+            text-align: center;
+            color: @red;
+        }
+        img {
+            width:100%;
+            height:auto;
+        }
+        p {
+            padding: 10px;
+            margin: 15px 0 0 0;
+            border: 1px solid @gray;
+            .border-radius(3px);
+        }
+        a {
+            display: block;
+            font-size: 3em;
+            text-align: center;
+            color: @blue;
+            .transition;
+            &:hover {
+                color: @red;
+                .transition;
+            }
+        }
+    }
+    .pagin {
+        margin: 35px 0;
+        text-align: center;
+        .page-numbers {
+            padding:15px;
+            font-size: 2em;
+            color: @black;
+            font-weight:700;
+            background: @red;
+            .border-radius(3px);
+        }
+        .current {
+            color: @gray;
+            font-weight:700;
+            background: @blue;
+        }
+    }
+
+}
+//single-page
+.single_page {
+    h3 {
+        color: @red;
+        margin: 0 0 50px 0;
+    }
+    .single {
+        margin-bottom: 35px;
+        padding-bottom: 35px;
+        border-bottom: 1px solid @blue;
+        img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 35px;
+        }
+    }
+    #respond {
+        margin-top:35px;
+        .comment-notes {
+            text-align: center;
+            color: @blue;
+        }
+        .comment-form-author {
+            label {
+                font-size: 1.5em;
+                font-weight: 700;
+                color:@red;
+            }
+            input {
+                .input;
+                width:100%;
+            }
+        }
+        .comment-form-email {
+            label {
+                font-size: 1.5em;
+                font-weight: 700;
+                color:@red;
+            }
+            input {
+                .input;
+                width:100%;
+            }
+        }
+        .comment-form-url {
+            label {
+                font-size: 1.5em;
+                font-weight: 700;
+                color:@red;
+            }
+            input {
+                .input;
+                width:100%;
+            }
+        }
+        .comment-form-comment{
+            label {
+                font-size: 1.5em;
+                font-weight: 700;
+                color:@red;
+            }
+            textarea {
+                .input;
+                width:100%;
+                height: 150px;
+            }
+        }
+        .form-submit {
+            input {
+                .button;
+            }
+        }
+    }
+    .paginator_single {
+        text-align: center;
+        margin:50px 0;
+        .right_single,
+        .left_single {
+            display: inline-block;
+            a {
+                padding: 20px;
+                font-size: 1.5em;
+                color:@black;
+                background: @red;
+                .border-radius(3px);
+                font-weight: 700;
+            }
+        }
+    }
+    .comment-list {
+        list-style: none;
+    }
+}
